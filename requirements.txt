@@ -5,7 +5,7 @@ djangorestframework>=3.14,<4.0
 # Optional & Recommended
 psycopg2-binary>=2.9       # PostgreSQL support
 python-decouple>=3.8       # Manage secrets via .env
-drf_spectacular>=0.28.0
+drf-spectacular>=0.28.0
 
 # For cross-origin requests (e.g., if you use React or external frontend)
 django-cors-headers>=4.3
