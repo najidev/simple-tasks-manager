@@ -1,11 +1,11 @@
 # Core
-Django>=4.2,<5.0
+Django>=5.2
 djangorestframework>=3.14,<4.0
 
 # Optional & Recommended
 psycopg2-binary>=2.9       # PostgreSQL support
 python-decouple>=3.8       # Manage secrets via .env
-drf-yasg>=1.21             # Swagger/OpenAPI docs
+drf_spectacular>=0.28.0
 
 # For cross-origin requests (e.g., if you use React or external frontend)
 django-cors-headers>=4.3
